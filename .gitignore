@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# Build artifacts
+dist/
+build/
+caido-build/
+*.zip
+
+# Environment and Secrets
+.env
+.env.local
+.env.*
+*.key
+*.pem
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+
+# Specific files with secrets
+caido-mcp-api/test-conn.js
+mcp-server/server.js

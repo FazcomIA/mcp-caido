@@ -1,0 +1,14 @@
+{
+  "name": "caido-mcp-plugin",
+  "version": "1.0.0",
+  "description": "MCP Server plugin for Caido - AI-powered security testing automation",
+  "private": true,
+  "scripts": {
+    "build": "echo 'Build requires Caido plugin-builder. See README for manual installation.'",
+    "dev": "echo 'Dev mode requires Caido Devtools plugin.'",
+    "test:mcp": "node mcp-server/server.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}
